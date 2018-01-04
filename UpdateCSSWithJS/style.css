@@ -4,6 +4,16 @@
   --blur: 10px;
 }
 
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.h1-destak {
+  color: var(--base);
+}
+
 body {
   text-align: center;
   background: #193549;
@@ -15,6 +25,15 @@ body {
 
 .controls {
   margin-bottom: 50px;
+}
+
+a {
+  color: var(--base);
+  text-decoration: none;
+}
+
+input {
+  width: 100px;
 }
 
 
